@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="43px" height="43px" viewBox="0 0 43 43" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Combined Shape Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.566632699">
+        <g id="1920" transform="translate(-269.000000, -673.000000)" fill="#FFFFFF">
+            <g id="Небо-и-звезды">
+                <g transform="translate(-292.000000, 0.000000)" id="Звезды">
+                    <g transform="translate(561.000000, 172.000000)">
+                        <path d="M17.4488,518.4488 C19.1008221,513.644105 20.4822402,507.718145 21.5000001,501 C22.5177601,507.718145 23.8991783,513.644105 25.5512004,518.4488 C30.3558952,520.100822 36.2818548,521.48224 43,522.5 C36.2818545,523.51776 30.3558947,524.899178 25.5512,526.5512 C23.8991779,531.355895 22.5177598,537.281855 21.4999999,544 C20.4822399,537.281855 19.1008217,531.355895 17.4487996,526.5512 C12.6441048,524.899178 6.71814516,523.51776 -2.06397875e-14,522.5 C6.71814546,521.48224 12.6441053,520.100822 17.4488,518.4488 Z" id="Combined-Shape-Copy"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

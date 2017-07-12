@@ -1,0 +1,108 @@
+@font-face {
+  font-family: San Francisco;
+  src: url(/fonts/sf-400.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: San Francisco;
+  src: url(/fonts/sf-300.ttf);
+  font-weight: 300;
+}
+
+:root {
+  font-family: Roboto, sans-serif;
+  color: 424242;
+}
+
+h1 {
+  margin: 0;
+  line-height: 1;
+  font-family: 'San Francisco', sans-serif;
+  font-size: 65px;
+  font-weight: 400;
+  color: white;
+}
+
+h2 {
+  margin: 0;
+  line-height: 1;
+  font-family: 'San Francisco', sans-serif;
+  font-size: 35px;
+  font-weight: 300;
+  color: white;
+}
+
+h3 {
+  margin: 0;
+  line-height: 1;
+  font-size: 50px;
+  font-weight: 300;
+}
+
+h4 {
+  margin: 0;
+  line-height: 1;
+  font-family: 'San Francisco', sans-serif;
+  font-size: 35px;
+  text-transform: uppercase;
+} h4 span {
+  color: #04BE5B;
+}
+
+.button {
+  height: 45px;
+  padding: 0 16px;
+  border-radius: 4px;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  background: #CFD8DC;
+  color: #424242;
+}
+
+.button-primary {
+  height: 55px;
+  padding: 0 48px;
+  font-size: 17px;
+  text-transform: uppercase;
+  background: #CC3358;
+  color: white;
+}
+
+.button-success {
+  background: #04BE5B;
+  color: white;
+}
+
+.input {
+  height: 45px;
+  padding: 0 16px;
+  border-radius: 4px;
+  border: 1px solid #bcbcbc;
+  background: #f0f0f0;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+input[type="radio"] {
+  display: none;
+} input[type="radio"] + label {
+  display: inline-block;
+  position: relative;
+  padding-left: 36px;
+} input[type="radio"]:checked + label {
+  color: #CC3358;
+} input[type="radio"] + label:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  background: url(/img/nomark.png) center center / contain no-repeat;
+} input[type="radio"]:checked + label:before {
+  background-image: url(/img/mark.png);
+}

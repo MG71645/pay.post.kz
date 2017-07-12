@@ -1,0 +1,298 @@
+body {
+  perspective: 100px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+main {
+  background: url(/img/footer.png) center bottom no-repeat, url(/img/gradient.png) left top / contain;
+}
+
+#main {
+  transform-style: preserve-3d;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.stars01 {
+  background: url(/img/stars01.png) center center no-repeat;
+  -webkit-transform: translateZ(-30px) scale(1.3);
+  -moz-transform: translateZ(-30px) scale(1.3);
+  -ms-transform: translateZ(-30px) scale(1.3);
+  -o-transform: translateZ(-30px) scale(1.3);
+  transform: translateZ(-30px) scale(1.3);
+}
+
+.stars02 {
+  background: url(/img/stars02.png) center center no-repeat;
+  -webkit-transform: translateZ(-30px) scale(1.3);
+  -moz-transform: translateZ(-30px) scale(1.3);
+  -ms-transform: translateZ(-30px) scale(1.3);
+  -o-transform: translateZ(-30px) scale(1.3);
+  transform: translateZ(-30px) scale(1.3);
+}
+
+.stars03 {
+  background: url(/img/stars03.png) center center no-repeat;
+  -webkit-transform: translateZ(-20px) scale(1.2);
+  -moz-transform: translateZ(-20px) scale(1.2);
+  -ms-transform: translateZ(-20px) scale(1.2);
+  -o-transform: translateZ(-20px) scale(1.2);
+  transform: translateZ(-20px) scale(1.2);
+}
+
+#main .flex-container {
+  position: relative;
+}
+
+#rocket {
+  width: 100%;
+  max-width: 386px;
+  padding-bottom: 124%;
+  background: url(/img/rocket.png) center top / contain no-repeat;
+}
+
+.main-header-burger {
+  display: block;
+  position: relative;
+  z-index: 10;
+  width: 32px;
+  height: 32px;
+}
+
+.main-header-burger * {
+  cursor: pointer;
+  display: block;
+  position: absolute;
+  width: 32px;
+  height: 4px;
+  border-radius: 2px;
+  background: white;
+  transform-origin: center center;
+  -webkit-transition: all 0.25s ease-in-out;
+} .main-header-burger :nth-child(1) {
+  top: 4px;
+} :checked + .main-header-burger :nth-child(1) {
+  top: 14px;
+  -webkit-transform: rotate(45deg);
+} .main-header-burger :nth-child(2) {
+  top: 14px;
+  left: 0;
+} :checked + .main-header-burger :nth-child(2) {
+  width: 4px;
+  left: 14px;
+} .main-header-burger :nth-child(3) {
+  bottom: 4px;
+} :checked + .main-header-burger :nth-child(3) {
+  bottom: 14px;
+  -webkit-transform: rotate(-45deg);
+}
+
+#menu {
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 150vh;
+  max-width: 320px;
+  padding-top: 100px;
+  background: rgba(0,0,0, 0.75);
+  color: white;
+} :checked ~ #menu {
+  visibility: visible;
+} #menu:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 50vw;
+  bottom: 0;
+  background: rgba(0,0,0, 0.75);
+}
+
+#menu a {
+  font-size: 18px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+#menu a.accent {
+  color: #ff97b0;
+}
+
+
+
+
+
+#badges {
+  padding: 96px 0;
+  color: white;
+}
+
+
+
+
+
+#comments {
+  transform-style: preserve-3d;
+}
+
+.clouds-top-back {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding-top: 22%;
+  margin-top: -12%;
+  background: url(/img/clouds-top-back.png) center top / cover no-repeat;
+  transform-origin: center;
+  -webkit-transform: translateZ(-10px) scale(1.1);
+  -moz-transform: translateZ(-10px) scale(1.1);
+  -ms-transform: translateZ(-10px) scale(1.1);
+  -o-transform: translateZ(-10px) scale(1.1);
+  transform: translateZ(-10px) scale(1.1);
+}
+
+.clouds-bottom-back {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-bottom: 22%;
+  margin-bottom: -14%;
+  background: url(/img/clouds-bottom-back.png) center bottom / cover no-repeat;
+  transform-origin: center;
+  -webkit-transform: translateZ(-10px) scale(1.1);
+  -moz-transform: translateZ(-10px) scale(1.1);
+  -ms-transform: translateZ(-10px) scale(1.1);
+  -o-transform: translateZ(-10px) scale(1.1);
+  transform: translateZ(-10px) scale(1.1);
+}
+
+.comments {
+  position: relative;
+  z-index: 1;
+  margin: 10% 0 15%;
+  padding: 96px 0;
+  background: white;
+} .comments:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 100%;
+  width: 100%;
+  padding-bottom: 10%;
+  background: url(/img/clouds-top.png) center top / cover no-repeat;
+} .comments:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  padding-bottom: 15%;
+  background: url(/img/clouds-bottom.png) center top / cover no-repeat;
+}
+
+.comments-header {
+  margin-bottom: 85px;
+}
+
+.comments-content {
+  margin-bottom: 125px;
+}
+
+.comment {
+  color: #54657E;
+}
+
+.comment-avatar {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+}
+
+#comment01 .comment-avatar {
+  background: url(/img/clients/01.jpg) center center / cover no-repeat;
+}
+
+#comment02 .comment-avatar {
+  background: url(/img/clients/02.jpg) center center / cover no-repeat;
+}
+
+#comment03 .comment-avatar {
+  background: url(/img/clients/03.jpg) center center / cover no-repeat;
+}
+
+.comment-author {
+  font-weight: bolder;
+}
+
+
+
+
+
+#advantages {
+  transform-style: preserve-3d;
+  font-size: 16px;
+  color: white;
+}
+
+#advantages .flex-container {
+  position: relative;
+  padding: 185px 0;
+} @media screen and (min-width: 900px) { #advantages .flex-container:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 180px;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background: url(/img/dove-left.svg) center center / contain no-repeat;
+  -webkit-transform: translateZ(-20px) scale(1.2);
+  -moz-transform: translateZ(-20px) scale(1.2);
+  -ms-transform: translateZ(-20px) scale(1.2);
+  -o-transform: translateZ(-20px) scale(1.2);
+  transform: translateZ(-20px) scale(1.2);
+} #advantages .flex-container:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 60px;
+  right: 0;
+  width: 80px;
+  height: 80px;
+  background: url(/img/dove-right.svg) center center / contain no-repeat;
+  -webkit-transform: translateZ(-15px) scale(1.15);
+  -moz-transform: translateZ(-15px) scale(1.15);
+  -ms-transform: translateZ(-15px) scale(1.15);
+  -o-transform: translateZ(-15px) scale(1.15);
+  transform: translateZ(-15px) scale(1.15);
+} }
+
+#advantage01 {
+  margin-bottom: 255px;
+}
+
+.advantage-text {
+  max-width: 560px;
+}
+
+
+
+
+
+form {
+  border-radius: 8px;
+  background: white;
+}

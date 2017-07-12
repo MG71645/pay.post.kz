@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Main" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1920" transform="translate(-880.000000, -804.000000)">
+            <g id="Group-2" transform="translate(465.000000, 804.000000)">
+                <g id="Code-07" transform="translate(403.000000, 0.000000)">
+                    <g id="Group-7" transform="translate(12.000000, 0.000000)">
+                        <rect id="Rectangle-path" x="0.119521912" y="0.239043825" width="149.40239" height="149.40239"></rect>
+                        <g id="Group" transform="translate(22.111554, 25.099602)" fill-rule="nonzero" fill="#FFFFFF">
+                            <rect id="Rectangle-path" x="0" y="21.5139442" width="107.569721" height="1.79282869"></rect>
+                            <g transform="translate(0.000000, 40.637450)" id="Rectangle-path">
+                                <rect x="0" y="0" width="48.4063745" height="1.79282869"></rect>
+                                <rect x="59.1633466" y="0" width="48.4063745" height="1.79282869"></rect>
+                            </g>
+                            <g transform="translate(0.000000, 31.075697)" id="Rectangle-path">
+                                <rect x="0" y="0" width="28.685259" height="1.79282869"></rect>
+                                <rect x="39.4422311" y="0" width="28.685259" height="1.79282869"></rect>
+                                <rect x="78.8844622" y="0" width="28.685259" height="1.79282869"></rect>
+                            </g>
+                            <rect id="Rectangle-path" x="0" y="50.1992032" width="107.569721" height="1.79282869"></rect>
+                            <rect id="Rectangle-path" x="0" y="69.3227092" width="48.4063745" height="1.79282869"></rect>
+                            <g transform="translate(0.000000, 59.760956)" id="Rectangle-path">
+                                <rect x="0" y="0" width="28.685259" height="1.79282869"></rect>
+                                <rect x="39.4422311" y="0" width="28.685259" height="1.79282869"></rect>
+                                <rect x="78.8844622" y="0" width="28.685259" height="1.79282869"></rect>
+                            </g>
+                            <polygon id="Shape" points="7.94820717 14.5219124 1.19521912 7.88844622 1.19521912 7.11155378 1.43426295 6.812749 7.94820717 0.418326693 9.20318725 1.67330677 3.34661355 7.47011952 9.26294821 13.2669323"></polygon>
+                            <polygon id="Shape" points="24.8605578 14.5219124 23.6055777 13.2669323 29.5219124 7.47011952 23.6653386 1.67330677 24.9203187 0.418326693 31.6733068 7.11155378 31.6733068 7.82868526 31.4342629 8.12749004"></polygon>
+                            <rect id="Rectangle-path" transform="translate(16.440893, 7.684736) rotate(23.722224) translate(-16.440893, -7.684736) " x="15.5444856" y="0.90191657" width="1.79281572" height="13.565639"></rect>
+                            <polygon id="Shape" points="7.94820717 94.0039841 1.19521912 87.3705179 1.19521912 86.5936255 1.43426295 86.2948207 7.94820717 79.9003984 9.20318725 81.1553785 3.34661355 86.9521912 9.26294821 92.749004"></polygon>
+                            <polygon id="Shape" points="24.8605578 94.0039841 23.6055777 92.749004 29.5219124 86.9521912 23.6653386 81.1553785 24.9203187 79.9003984 31.6733068 86.5936255 31.6733068 87.310757 31.4342629 87.6095618"></polygon>
+                            <rect id="Rectangle-path" transform="translate(16.438443, 87.165075) rotate(23.722224) translate(-16.438443, -87.165075) " x="15.5420354" y="80.3822552" width="1.79281572" height="13.565639"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
