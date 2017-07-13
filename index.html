@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="css/flex.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="/js/jquery-3.2.1.min.js"></script>
+    <script src="js/main.js"></script>
   </head>
   <body>
     <main>
@@ -205,15 +208,15 @@
       </section>
       <section id="advantages">
         <div class="flex-container" data-padding="16x lg:0x">
-          <div id="advantage01">
+          <div class="scene" id="advantage01">
             <div data-display="col" data-align-items="center" data-align-text="center" data-cell-spacing="64px">
-              <div>
+              <div class="animated from-bottom">
                 <img src="img/badges/truck.svg">
               </div>
-              <h3>
+              <h3 class="animated from-bottom">
   Доставка по всему Казахстану!
               </h3>
-              <div class="advantage-text">
+              <div class="advantage-text animated from-bottom">
   Казпочта существует уже больше ста лет и на протяжении всего
   этого времени оказывает первоклассные услуги по доставке
   писем и посылок. Ваши товары всегда будут в поле зрения
@@ -221,15 +224,15 @@
               </div>
             </div>
           </div>
-          <div id="advantage02">
+          <div class="scene" id="advantage02">
             <div data-display="col" data-align-items="center" data-align-text="center" data-cell-spacing="64px">
-              <div>
+              <div class="animated from-bottom">
                 <img src="img/badges/bank.svg">
               </div>
-              <h3>
+              <h3 class="animated from-bottom">
   Гарантия качества Казпочты
               </h3>
-              <div class="advantage-text">
+              <div class="advantage-text animated from-bottom">
   Начиная с 2006 года Казпочта стала активно заниматься
   банковской деятельностью, зарекомендовав себя как один из
   самых надежных банков Казахстана. Вы можете быть уверены в
@@ -288,8 +291,8 @@
         </form>
       </section>
       <footer data-display="col" data-padding="64y" data-align-items="center">
-      <img src="img/logo.svg" width="164">
-    </footer>
+        <img src="img/logo.svg" width="164">
+      </footer>
     </main>
   </body>
 </html>
