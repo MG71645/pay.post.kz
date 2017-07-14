@@ -9,10 +9,11 @@ main {
   background: url(../img/footer.png) center bottom no-repeat, url(../img/gradient.png) left top / contain;
 }
 
-#main {
-  transform-style: preserve-3d;
+#main {/*
+  transform-style: preserve-3d;*/
   position: relative;
   margin-bottom: 160px;
+  background: url(../img/stars03.svg) top center;
 }
 
 .stars {
@@ -25,25 +26,26 @@ main {
 
 @keyframes stars01 {
   0% {
-    background-position: 0;
+    background-position: 0 0;
   }
   100% {
-    background-position: -1513px;
+    background-position: -2500px 3000px;
   }
 }
 
 .stars01 {
-  background: url(../img/stars01.png) center center;
+  opacity: 0.25;
+  background: url(../img/stars01.svg) center center;/*
   -webkit-transform: translateZ(-40px) scale(1.4);
   -moz-transform: translateZ(-40px) scale(1.4);
   -ms-transform: translateZ(-40px) scale(1.4);
   -o-transform: translateZ(-40px) scale(1.4);
-  transform: translateZ(-40px) scale(1.4);
-  -webkit-animation: stars01 5s linear infinite;
-  -moz-animation: stars01 5s linear infinite;
-  -ms-animation: stars01 5s linear infinite;
-  -o-animation: stars01 5s linear infinite;
-  animation: stars01 5s linear infinite;
+  transform: translateZ(-40px) scale(1.4);*/
+  -webkit-animation: stars01 50s linear infinite;
+  -moz-animation: stars01 50s linear infinite;
+  -ms-animation: stars01 50s linear infinite;
+  -o-animation: stars01 50s linear infinite;
+  animation: stars01 50s linear infinite;
 }
 
 @keyframes stars02 {
@@ -51,45 +53,23 @@ main {
     background-position: 0;
   }
   100% {
-    background-position: -1595px;
+    background-position: -2500px 3000px;
   }
 }
 
 .stars02 {
-  background: url(../img/stars02.png) center center;
+  opacity: 0.5;
+  background: url(../img/stars02.svg) center center;/*
   -webkit-transform: translateZ(-30px) scale(1.3);
   -moz-transform: translateZ(-30px) scale(1.3);
   -ms-transform: translateZ(-30px) scale(1.3);
   -o-transform: translateZ(-30px) scale(1.3);
-  transform: translateZ(-30px) scale(1.3);
-  -webkit-animation: stars02 10s linear infinite;
-  -moz-animation: stars02 10s linear infinite;
-  -ms-animation: stars02 10s linear infinite;
-  -o-animation: stars02 10s linear infinite;
-  animation: stars02 10s linear infinite;
-}
-
-@keyframes stars03 {
-  0% {
-    background-position: 0;
-  }
-  100% {
-    background-position: -1832px;
-  }
-}
-
-.stars03 {
-  background: url(../img/stars03.png) center center;
-  -webkit-transform: translateZ(-20px) scale(1.2);
-  -moz-transform: translateZ(-20px) scale(1.2);
-  -ms-transform: translateZ(-20px) scale(1.2);
-  -o-transform: translateZ(-20px) scale(1.2);
-  transform: translateZ(-20px) scale(1.2);
-  -webkit-animation: stars03 20s linear infinite;
-  -moz-animation: stars03 20s linear infinite;
-  -ms-animation: stars03 20s linear infinite;
-  -o-animation: stars03 20s linear infinite;
-  animation: stars03 20s linear infinite;
+  transform: translateZ(-30px) scale(1.3);*/
+  -webkit-animation: stars02 100s linear infinite;
+  -moz-animation: stars02 100s linear infinite;
+  -ms-animation: stars02 100s linear infinite;
+  -o-animation: stars02 100s linear infinite;
+  animation: stars02 100s linear infinite;
 }
 
 #main .flex-container {
@@ -107,14 +87,96 @@ main {
 }
 
 #rocket {
-  width: 386px;
-  height: 517px;
-  background: url(../img/rocket.png) center top / contain no-repeat;
+  position: relative;
+  width: 360px;
+  height: 440px;
   -webkit-animation: rocket 1s ease-in-out infinite alternate;
   -moz-animation: rocket 1s ease-in-out infinite alternate;
   -ms-animation: rocket 1s ease-in-out infinite alternate;
   -o-animation: rocket 1s ease-in-out infinite alternate;
   animation: rocket 1s ease-in-out infinite alternate;
+}
+
+.rocket {
+  position: absolute;
+  width: 360px;
+  height: 440px;
+  background: url(../img/rocket.png) center top / contain no-repeat;
+}
+
+@keyframes fire {
+  100% {
+    -webkit-transform: scale(0.90);
+  }
+}
+
+.fire {
+  position: absolute;
+  transform-origin: top right;
+  -webkit-animation: fire 0.1s ease-in-out infinite alternate;
+  -moz-animation: fire 0.1s ease-in-out infinite alternate;
+  -ms-animation: fire 0.1s ease-in-out infinite alternate;
+  -o-animation: fire 0.1s ease-in-out infinite alternate;
+  animation: fire 0.1s ease-in-out infinite alternate;
+}
+
+.fire-business {
+  top: 81%;
+  left: 11%;
+  width: 25%;
+  height: 28%;
+  background: url(../img/fire-red.svg) right top / contain no-repeat;
+}
+
+.fire-delivery {
+  top: 75%;
+  left: -7%;
+  width: 22%;
+  height: 25%;
+  background: url(../img/fire-blue.svg) right top / contain no-repeat;
+}
+
+.fire-payment {
+  top: 93%;
+  left: 26%;
+  width: 22%;
+  height: 25%;
+  background: url(../img/fire-blue.svg) right top / contain no-repeat;
+}
+
+@keyframes trace {
+  100% {
+    opacity: 0;
+  }
+}
+
+.trace {
+  position: absolute;
+  transform-origin: top right;
+  -webkit-animation: trace 0.1s ease-in-out infinite alternate;
+  -moz-animation: trace 0.1s ease-in-out infinite alternate;
+  -ms-animation: trace 0.1s ease-in-out infinite alternate;
+  -o-animation: trace 0.1s ease-in-out infinite alternate;
+  animation: trace 0.1s ease-in-out infinite alternate;
+}
+
+.path01 {
+  opacity: 0.5;
+  position: absolute;
+  top: 68%;
+  right: 37%;
+  width: 200%;
+  height: 230%;
+  background: url(../img/path01.png) right top / contain no-repeat;
+}
+
+.path02 {
+  position: absolute;
+  top: 73%;
+  right: 48%;
+  width: 75%;
+  height: 75%;
+  background: url(../img/path02.png) right top / contain no-repeat;
 }
 
 .main-header-burger {

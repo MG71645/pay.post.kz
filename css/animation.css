@@ -2,11 +2,11 @@
   
   .animated {
     opacity: 0;
-    -webkit-transition: all 0.5s ease-out;
-    -moz-transition: all 0.5s ease-out;
-    -ms-transition: all 0.5s ease-out;
-    -o-transition: all 0.5s ease-out;
-    transition: all 0.5s ease-out;
+    -webkit-transition: all 0.1s ease-in;
+    -moz-transition: all 0.1s ease-in;
+    -ms-transition: all 0.1s ease-in;
+    -o-transition: all 0.1s ease-in;
+    transition: all 0.1s ease-in;
   }
   
   .animate .animated {
@@ -16,14 +16,11 @@
     -ms-transform: translateY(0) translateX(0) rotateX(0) rotateY(0) rotateZ(0) rotate3d(0,0,0,0);
     -o-transform: translateY(0) translateX(0) rotateX(0) rotateY(0) rotateZ(0) rotate3d(0,0,0,0);
     transform: translateY(0) translateX(0) rotateX(0) rotateY(0) rotateZ(0) rotate3d(0,0,0,0);
-  }
-  
-  .scene:not(.animate) .animated {
-    -webkit-transition: all 0.1s ease-in;
-    -moz-transition: all 0.1s ease-in;
-    -ms-transition: all 0.1s ease-in;
-    -o-transition: all 0.1s ease-in;
-    transition: all 0.1s ease-in;
+    -webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
   }
   
   
@@ -86,67 +83,67 @@
   
   
   
-  .animated:nth-child(2) {
+  .animate .animated:nth-child(2) {
     transition-delay: 0.2s;
   }
-  .animated:nth-child(3) {
+  .animate .animated:nth-child(3) {
     transition-delay: 0.4s;
   }
-  .animated:nth-child(4) {
+  .animate .animated:nth-child(4) {
     transition-delay: 0.6s;
   }
-  .animated:nth-child(5) {
+  .animate .animated:nth-child(5) {
     transition-delay: 0.8s;
   }
-  .animated:nth-child(6) {
+  .animate .animated:nth-child(6) {
     transition-delay: 1.0s;
   }
-  .animated:nth-child(7) {
+  .animate .animated:nth-child(7) {
     transition-delay: 1.2s;
   }
-  .animated:nth-child(8) {
+  .animate .animated:nth-child(8) {
     transition-delay: 1.4s;
   }
-  .animated:nth-child(9) {
+  .animate .animated:nth-child(9) {
     transition-delay: 1.6s;
   }
-  .animated:nth-child(10) {
+  .animate .animated:nth-child(10) {
     transition-delay: 1.8s;
   }
-  .animated:nth-child(11) {
+  .animate .animated:nth-child(11) {
     transition-delay: 2.0s;
   }
-  .animated:nth-child(12) {
+  .animate .animated:nth-child(12) {
     transition-delay: 2.2s;
   }
-  .animated:nth-child(13) {
+  .animate .animated:nth-child(13) {
     transition-delay: 2.4s;
   }
-  .animated:nth-child(12) {
+  .animate .animated:nth-child(12) {
     transition-delay: 2.6s;
   }
-  .animated:nth-child(13) {
+  .animate .animated:nth-child(13) {
     transition-delay: 2.8s;
   }
-  .animated:nth-child(14) {
+  .animate .animated:nth-child(14) {
     transition-delay: 3.0s;
   }
-  .animated:nth-child(15) {
+  .animate .animated:nth-child(15) {
     transition-delay: 3.2s;
   }
-  .animated:nth-child(16) {
+  .animate .animated:nth-child(16) {
     transition-delay: 3.4s;
   }
-  .animated:nth-child(17) {
+  .animate .animated:nth-child(17) {
     transition-delay: 3.6s;
   }
-  .animated:nth-child(18) {
+  .animate .animated:nth-child(18) {
     transition-delay: 3.8s;
   }
-  .animated:nth-child(19) {
+  .animate .animated:nth-child(19) {
     transition-delay: 4.0s;
   }
-  .animated:nth-child(20) {
+  .animate .animated:nth-child(20) {
     transition-delay: 4.2s;
   }
   

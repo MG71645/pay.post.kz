@@ -1,12 +1,12 @@
 @font-face {
   font-family: San Francisco;
-  src: url(/fonts/sf-400.ttf);
+  src: url(../fonts/sf-400.ttf);
   font-weight: 400;
 }
 
 @font-face {
   font-family: San Francisco;
-  src: url(/fonts/sf-300.ttf);
+  src: url(../fonts/sf-300.ttf);
   font-weight: 300;
 }
 
@@ -81,6 +81,20 @@ h4 {
   border-radius: 4px;
   border: 1px solid #bcbcbc;
   background: #f0f0f0;
+}
+
+.input[type="tel"] {
+  padding-left: 45px;
+  background-image: url(../img/icons/user.png);
+  background-position: 16px center;
+  background-repeat: no-repeat;
+}
+
+.input[type="email"] {
+  padding-left: 45px;
+  background-image: url(../img/icons/email.png);
+  background-position: 16px center;
+  background-repeat: no-repeat;
 }
 
 input[type="checkbox"] {
